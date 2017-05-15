@@ -1,48 +1,48 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.40.3.8902/W32 for ARM                 09/May/2017  21:12:11
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 09/May/2017  21:20:36
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.out
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.out
 #    Map file     =  
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\List\SimpleBLEPeripheralAppFlashROM.map
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\List\SimpleBLEPeripheralAppFlashROM.map
 #    Command line =  
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\amomcu_buffer.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\bleUserConfig.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\Board.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\Board_adc.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_key.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_lcd.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_led.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_mpu6050.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_pwm.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_uart.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ccfg_appBLE.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\devinfoservice.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\gatt_uuid.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\gattservapp_util.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\I2C.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\I2CCC26XX.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ICall.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ICallBleAPI.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ICallCC2650.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\main.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\npi_tl_uart.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\peripheral.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\simpleBLEPeripheral.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\simpleGATTprofile.o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj\util.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\amomcu_buffer.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\bleUserConfig.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\Board.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\Board_adc.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_key.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_lcd.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_led.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_mpu6050.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_pwm.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\board_uart.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ccfg_appBLE.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\devinfoservice.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\gatt_uuid.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\gattservapp_util.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\I2C.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\I2CCC26XX.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ICall.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ICallBleAPI.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\ICallCC2650.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\main.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\npi_tl_uart.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\peripheral.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\simpleBLEPeripheral.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\simpleGATTprofile.o
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj\util.o
 #        -o
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.out
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.out
 #        --map
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\List\SimpleBLEPeripheralAppFlashROM.map
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\List\SimpleBLEPeripheralAppFlashROM.map
 #        --config
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\..\..\..\..\..\common\cc26xx\IAR\cc26xx_ble_app.icf
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\..\..\..\..\..\common\cc26xx\IAR\cc26xx_ble_app.icf
 #        --keep __vector_table -f
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\configPkg\linker.cmd
-#        (C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\configPkg\package\cfg\appBLE_prm3.orm3
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Config\src\sysbios\sysbios.arm3
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\configPkg\linker.cmd
+#        (C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\configPkg\package\cfg\appBLE_prm3.orm3
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Config\src\sysbios\sysbios.arm3
 #        C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\rts\lib\release\boot.arm3
 #        --entry __iar_program_start --keep __vector_table --define_symbol
 #        ti_sysbios_family_arm_m3_Hwi_nvic=0xe000e000 --keep
@@ -530,7 +530,7 @@
 #        C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/golden/CC26xx/
 #        --config_def USE_TIRTOS_ROM=1 --keep __ASM__ --keep __PLAT__ --keep
 #        __ISA__ --keep __TARG__ --keep __TRDR__) -f
-#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\..\..\Config\IAR-Boundary.xcl
+#        C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\..\..\Config\IAR-Boundary.xcl
 #        (--config_def ICALL_STACK0_ADDR=0x0000F000 --config_def
 #        ICALL_RAM0_ADDR=0x200043E4)
 #        C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\bin\iar\driverlib.lib
@@ -1843,7 +1843,7 @@ Copy/lz77 (__iar_lz77_init3)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj: [1]
+C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj: [1]
     Board.o                              62      268
     Board_adc.o                           1        2
     ICall.o                  2 644        4    2 816
@@ -1869,7 +1869,7 @@ C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-facto
     ------------------------------------------------
     Total:                  15 490      890    6 987
 
-C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\configPkg\package\cfg: [2]
+C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\configPkg\package\cfg: [2]
     appBLE_prm3.orm3           568    1 950    3 310
     ------------------------------------------------
     Total:                     568    1 950    3 310
@@ -3705,8 +3705,8 @@ xdc_runtime_Timestamp_getFreq__E {Abs}
                         0x1001c12f          --   Gb  command line/config [3]
 
 
-[1] = C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\FlashROM\Obj
-[2] = C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\configPkg\package\cfg
+[1] = C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\FlashROM\Obj
+[2] = C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\configPkg\package\cfg
 [3] = command line
 [4] = boot.arm3
 [5] = dl7M_tln.a

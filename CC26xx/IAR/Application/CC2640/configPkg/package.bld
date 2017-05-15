@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral-factory_abc/CC26xx/IAR/Config/appBLE.cfg',
+        cfgScript: 'C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral_Repository/CC26xx/IAR/Config/appBLE.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -40,8 +40,8 @@ else {
 }
 
 var thisObj = {
-    cfg:        'C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral-factory_abc/CC26xx/IAR/Application/CC2640/..\..\Config\appBLE.cfg',
-    outputPath: 'C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral-factory_abc/CC26xx/IAR/Application/CC2640/configPkg',
+    cfg:        'C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral_Repository/CC26xx/IAR/Application/CC2640/..\..\Config\appBLE.cfg',
+    outputPath: 'C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral_Repository/CC26xx/IAR/Application/CC2640/configPkg',
     exeName:    'appBLE' + suffix,
     exeIntName: 'appBLE' + suffix.replace('.', '_'),
     targ:       targ,

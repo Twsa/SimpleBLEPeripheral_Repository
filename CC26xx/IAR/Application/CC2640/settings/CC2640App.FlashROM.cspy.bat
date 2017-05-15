@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"E:\Setup_con\IAR\common\bin\cspybat" -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.general.xcl" --backend -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.driver.xcl" 
+"E:\Setup_con\IAR\common\bin\cspybat" -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.general.xcl" --backend -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\Setup_con\IAR\common\bin\cspybat" -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.general.xcl" "--debug_file=%1" --backend -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral-factory_abc\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.driver.xcl" 
+"E:\Setup_con\IAR\common\bin\cspybat" -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.general.xcl" "--debug_file=%1" --backend -f "C:\ti\simplelink\ble_cc26xx_2_01_00_44423\Projects\ble\SimpleBLEPeripheral_Repository\CC26xx\IAR\Application\CC2640\settings\CC2640App.FlashROM.driver.xcl" 
 
 @echo off 
 :end

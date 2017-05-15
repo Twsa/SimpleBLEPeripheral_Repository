@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/appBLE_prm3.xdl
-	$(SED) 's"^\"\(package/cfg/appBLE_prm3cfg.cmd\)\"$""\"C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral-factory_abc/CC26xx/IAR/Application/CC2640/configPkg/\1\""' package/cfg/appBLE_prm3.xdl > $@
+	$(SED) 's"^\"\(package/cfg/appBLE_prm3cfg.cmd\)\"$""\"C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral_Repository/CC26xx/IAR/Application/CC2640/configPkg/\1\""' package/cfg/appBLE_prm3.xdl > $@
 	-$(SETDATE) -r:max package/cfg/appBLE_prm3.h compiler.opt compiler.opt.defs
